@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>EUPHORIA - Event Listing</title>
+
+</head>
+<body>
+    <header>
+        <h1>EUPHORIA</h1>
+    </header>
+    <main>
+        <div class="controls">
+            <button id="fetchData">Fetch Events</button>
+            <input type="text" id="searchBar" placeholder="Search events...">
+            <select id="sortOptions">
+                <option value="name">Sort by Name (A-Z)</option>
+                <option value="priceHigh">Sort by Price (High to Low)</option>
+                <option value="priceLow">Sort by Price (Low to High)</option>
+            </select>
+        </div>
+        <div id="eventGrid"></div>
+        <div id="pagination"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 EUPHORIA - All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
